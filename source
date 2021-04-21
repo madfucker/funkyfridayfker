@@ -25,7 +25,8 @@ Banned.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Banned.BorderSizePixel = 0
 Banned.Position = UDim2.new(0.308133364, 0, 0.381625444, 0)
 Banned.Size = UDim2.new(0, 622, 0, 200)
-Ba
+Banned.Active = true
+Banned.Draggable = true
 
 warning.Name = "warning"
 warning.Parent = Banned
