@@ -14,7 +14,8 @@ local Pattern = Instance.new("ImageLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Name = "ScreenGUI"
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Banned.Name = "Banned"
@@ -24,6 +25,7 @@ Banned.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Banned.BorderSizePixel = 0
 Banned.Position = UDim2.new(0.308133364, 0, 0.381625444, 0)
 Banned.Size = UDim2.new(0, 622, 0, 200)
+Ba
 
 warning.Name = "warning"
 warning.Parent = Banned
